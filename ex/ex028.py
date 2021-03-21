@@ -3,10 +3,10 @@
 from random import randint
 from time import sleep
 n = randint(0, 5)
-e = int(input('O computador escolheu um número de 0 a 5 descubra qual é: '))
-print('PROCESSANDO...')
+e = int(input('\033[33mO computador escolheu um número de 0 a 5 descubra qual é:\033[m '))
+print('\033[32mPROCESSANDO...\033[m')
 sleep(2)
 if e == n:
-    print('Parabêns vc acertou!')
+    print('\033[36mParabêns vc acertou!\033[m')
 else:
-    print('Errado! eu escolhi {} não {}'.format(n, e))
+    print('\033[35mErrado! eu escolhi\033[m \033[31m{}\033[m \033[35mnão\033[m \033[34m{}\033[m'.format(n, e))

@@ -1,6 +1,6 @@
 ### Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar, obs(US$1,00 = R$3,27).
 n1 = float(input('Quanto vc tem de dinheiro na carteira? '))
-print('Você tem {} reais e pode comprar {:.2f} dolares.'.format(n1, (n1 / 3.27)))
+print('Você tem \033[0;36m{}\033[m reais e pode comprar \033[0;33m{:.2f}\033[m dolares.'.format(n1, (n1 / 3.27)))
 
 ###Outro metodo
 #n1 = int(input('Quanto vc tem de dinheiro na carteira? '))

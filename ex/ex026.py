@@ -2,7 +2,7 @@
 ### > Quantas vezes aparece a letra "A".
 ### > Em que posição ela aparece a primeira vez.
 ### > Em que posição ela aparece a última vez.
-texto = str(input('digite alguma coisa: ')).strip().upper()
-print(texto.count('A'))
-print(texto.find('A') + 1)
-print(texto.rfind('A') + 1)
+texto = str(input('\033[1;32;46mdigite alguma coisa:\033[m ')).strip().upper()
+print('\033[35m', texto.count('A'), '\033[m')
+print('\033[34m', texto.find('A') + 1, '\033[m')
+print('\033[31m', texto.rfind('A') + 1, '\033[m')

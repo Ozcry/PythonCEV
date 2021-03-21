@@ -2,7 +2,7 @@
 ### ex: Ana Maria de Souza
 ### Primeiro = Ana
 ### Último = Souza
-nome = str(input('digite seu nome: ')).strip()
+nome = str(input('\033[30mDigite seu nome:\033[m ')).strip()
 nomed = nome.split()
-print('Primeiro nome: {}'.format(nomed[0]))
-print('Último nome: {}'.format(nomed[len(nomed) - 1]))
+print('\033[31mPrimeiro nome:\033[m {}{}{}'.format('\033[37m', nomed[0], '\033[m'))
+print('\033[32mÚltimo nome:\033[m {}{}{}'.format('\033[33m', nomed[len(nomed) - 1], '\033[m'))

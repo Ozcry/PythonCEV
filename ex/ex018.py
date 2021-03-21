@@ -4,4 +4,5 @@ an = float(input('Digite o ângulo que você deseja: '))
 seno = sin(radians(an))
 coseno = cos(radians(an))
 tangente = tan(radians(an))
-print('O Ângulo de {:.2f} tem o seno de {:.2f}, coseno de {:.2f} e tangente {:.2f}'.format(an, seno, coseno, tangente))
+cores = {'limpa': '\033[m', 'amarelo': '\033[33m', 'branco': '\033[30m', 'vermelho': '\033[31m', 'roxo': '\033[35m'}
+print('O Ângulo de {}{:.2f}{} tem o seno de {}{:.2f}{}, coseno de {}{:.2f}{} e tangente {}{:.2f}{}'.format(cores['vermelho'], an, cores['limpa'], cores['amarelo'], seno, cores['limpa'], cores['branco'], coseno, cores['limpa'], cores['roxo'], tangente, cores['limpa']))
