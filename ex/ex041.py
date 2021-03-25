@@ -13,7 +13,7 @@ elif 9 < date.today().year - ano <= 14:
     print('\033[32mSua categoria é Infantil!\033[m')
 elif 14 < date.today().year - ano <=18:
     print('\033[34mSua categoria é Junior!\033[m')
-elif 18 < date.today().year - ano <= 20:
+elif 18 < date.today().year - ano <= 25:
     print('\033[35mSua categoria é Sênior!\033[m')
 else:
     print('\033[36mSua categoria é Master!\033[m')

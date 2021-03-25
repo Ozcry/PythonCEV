@@ -9,7 +9,7 @@ r3 = float(input('\033[36mDigite o tamanho da terceira reta:\033[m '))
 if r1 < r2 + r3 and r1 > r2 - r3 and r2 < r1 + r3 and r2 > r1 - r3 and r3 < r1 + r2 and r3 > r1 - r2:
     if r1 == r2 == r3:
         print('\033[32mPode formar um triângulo é ele sera Equilátero.\033[m')
-    elif r1 != r2 != r3:
+    elif r1 != r2 != r3 != r1:
         print('\033[33mPode formar um triângulo é ele sera Escaleno.\033[m')
     else:
         print('\033[37mPode formar um triângulo é ele sera Isóceles.\033[m')

@@ -1,5 +1,6 @@
 ### Codicionais
 
+# end='' - para não quebra linha no final da frase
 # se == if
 #bloco 1
 # senão == else
