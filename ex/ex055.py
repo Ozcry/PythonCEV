@@ -1,11 +1,11 @@
 '''
 Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
 '''
-pesome = 9999999999
+pesome = 99999999999999999999999999999
 pesoma = 0
 print('\033[1;33m-=\033[m' * 20)
-for c in range(0,5):
-    peso = float(input('\033[35mDigite seu peso:\033[m '))
+for c in range(0, 5):
+    peso = float(input('\033[35mDigite o peso da {}ª pessoa:\033[m '.format(c + 1)))
     if peso > pesoma:
         pesoma = peso
     if peso < pesome:

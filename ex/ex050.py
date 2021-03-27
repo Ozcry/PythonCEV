@@ -3,8 +3,18 @@ Desenvolva um programa que leia seis números inteiros e mostre a soma apenas da
 digitado for ímpar, desconsidere-o.
 '''
 soma = 0
-for c in range(0,6):
+for c in range(1, 7):
+    n = int(input('\033[34mDigite o\033[m {}{}{}\033[34m número:\033[m '.format('\033[32m', c, '\033[m')))
+    if n % 2 == 0:
+        soma += n
+print('\033[33mA Soma de todos os números PARES digitados é\033[m {}{}{}'.format('\033[36m', soma, '\033[m'))
+
+### Outro metodo
+'''
+soma = 0
+for c in range(0, 6):
     n = int(input('\033[34mDigite um número:\033[m '))
     if n % 2 == 0:
         soma = soma + n
 print('\033[33mA Soma de todos os números PARES digitados é\033[m {}{}{}'.format('\033[36m', soma, '\033[m'))
+'''
