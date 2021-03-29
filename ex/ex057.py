@@ -3,7 +3,7 @@ Caso esteja errado, peça a digitação novamente até ter um valor correto.'''
 print('\033[1;33m-=\033[m' * 20)
 sexo = ''
 while sexo == '':
-    sex = str(input('\033[36mEscolha seu sexo [M/F]:\033[m ')).upper().strip()
+    sex = str(input('\033[36mInforme seu sexo [M/F]:\033[m ')).upper().strip()[0]
     if sex == 'M' or sex == 'F':
         sexo = sex
     else:
