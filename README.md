@@ -46,8 +46,7 @@ ex008.py -> Crie um programa que leia um valor em metros e o exiba convertido em
 
 ex009.py -> Crie um programa que leia um numero inteiro qualquer e mostre na tela a sua tabuada.
 
-ex010.py -> Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar, 
-obs(US$1,00 = R$3,27).
+ex010.py -> Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar, obs(US$1,00 = R$3,27).
 
 ex011.py -> Crie um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de 
 tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m2.
@@ -169,7 +168,7 @@ de pagamento:
 A) Á vista dinheiro/cheque: 10% de desconto
 B) Á vista no cartão: 5% de desconto
 C) Em até 2x no cartão: preço normal
-D) 3x ou mais no cartão: 20% de juros
+D) 3x ou mais no cartão: 20% de juros.
 
 ex045.py -> Crie um programa que faça o computador jogar Jokenpô com você.
 
@@ -189,7 +188,7 @@ ex052.py -> Faça um programa que leia um número inteiro e diga se ele e ou nã
 
 ex053.py -> Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços. Ex: APOS A SOPA, A SACADA DA CASA, A TORRE DA DERROTA
 
-ex054.py -> Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantos pessoas ainda não atingiram a maioridade e quantas já são maiores. Maior de idade com 21 anos
+ex054.py -> Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantos pessoas ainda não atingiram a maioridade e quantas já são maiores. Maior de idade com 21 anos.
 
 ex055.py -> Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
 
@@ -217,11 +216,11 @@ ex062.py -> Melhore o DESAFIO 061, perguntando para o usuário se ele quer mostr
 
 ex063.py -> Escreva um programa que leia um número 'n' inteiro qualquer e mostre na tela os 'n' primeiros elementos de uma Sequência de Fibonacci. Ex:. 0 - 1 - 1 - 2 - 3 - 5 - 8
 
-ex064.py -> Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999, que é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag)
+ex064.py -> Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999, que é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag).
 
 ex065.py -> Crie um programa que leia vários números inteiros pelo teclado. No final da execução, mostre a média entre todos os valores e qual foi o maior e o menor valores lidos. O programa deve perguntar ao usuário se ele quer ou não continuar a digitar valores.
 
-ex066.py -> Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999, que é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag)
+ex066.py -> Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999, que é a condição de parada. No final, mostre quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag).
 
 ex067.py -> Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido quando o número solicitado for negativo.
 
