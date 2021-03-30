@@ -1,6 +1,4 @@
-'''
-Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
-'''
+'''Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.'''
 pesome = 99999999999999999999999999999
 pesoma = 0
 print('\033[1;33m-=\033[m' * 20)

@@ -1,4 +1,4 @@
-### Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO.
+'''Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO.'''
 from datetime import date
 a = int(input('\033[36mDigite um ano:\033[m '))
 if a == 0:

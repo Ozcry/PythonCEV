@@ -1,7 +1,5 @@
-'''
-Desenvolva um programa que leia o primeiro termo e a razão de um PA. no final, mostre os 10 primeiros termos dessa
-progressão.
-'''
+'''Desenvolva um programa que leia o primeiro termo e a razão de um PA. no final, mostre os 10 primeiros termos dessa
+progressão.'''
 print('\033[1;33m-=\033[m' * 20)
 n1 = int(input('\033[31mDigite o primeiro termo:\033[m '))
 pa = int(input('\033[32mDigite a razão da PA:\033[m '))

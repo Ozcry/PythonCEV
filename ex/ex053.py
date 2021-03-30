@@ -1,7 +1,5 @@
-'''
-Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
-Ex: APOS A SOPA, A SACADA DA CASA, A TORRE DA DERROTA
-'''
+'''Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
+Ex: APOS A SOPA, A SACADA DA CASA, A TORRE DA DERROTA'''
 frase = str(input('\033[34mDigite sua frase:\033[m ')).strip().upper()
 print('\033[1;33m-=\033[m' * 20)
 dividido = frase.split()

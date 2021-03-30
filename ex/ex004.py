@@ -1,4 +1,4 @@
-### Crie um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiceis sobre ele.
+'''Crie um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiceis sobre ele.'''
 n = str(input('Digite algo: '))
 print('\033[4;37m', type(n), '\033[m')
 print('\033[0;31m', n.isupper(), '\033[m')

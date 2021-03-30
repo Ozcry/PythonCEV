@@ -1,6 +1,4 @@
-'''
-Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.
-'''
+''' Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.'''
 print('\033[1;33m-=\033[m' * 20)
 print('\033[1;36mNúmeros PARES de 1 a 50\033[m')
 from time import sleep

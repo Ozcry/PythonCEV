@@ -1,6 +1,4 @@
-'''
-Faça um programa que leia um número inteiro e diga se ele e ou não um número primo.
-'''
+'''Faça um programa que leia um número inteiro e diga se ele e ou não um número primo.'''
 num = int(input('\033[32mDigite um número:\033[m '))
 print('\033[1;33m-=\033[m' * 20)
 tot = 0

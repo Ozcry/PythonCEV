@@ -1,4 +1,4 @@
-### Crie um programa que leia um numero e mostre o seu dobro, triplo e raiz quadrada.
+'''Crie um programa que leia um numero e mostre o seu dobro, triplo e raiz quadrada.'''
 n1 = int(input('Digite um numero: '))
 cores = {'limpa': '\033[m', 'roxo': '\033[0;35m', 'azul': '\033[0;34m', 'verde': '\033[0;32m', 'vermelho': '\033[0;31m'}
 print('Seu numero {}{}{}\no Dobro {}{}{}\nTriplo {}{}{}\nRaiz Quadrada {}{:.2f}{}'.format

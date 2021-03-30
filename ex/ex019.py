@@ -1,4 +1,4 @@
-### Um professor quer sortear um dos seus quatro alunos para apagar o quadro. faça um programa que ajude ele. lendo o nome deles e escrevendo o nome escolhido.
+'''Um professor quer sortear um dos seus quatro alunos para apagar o quadro. faça um programa que ajude ele. lendo o nome deles e escrevendo o nome escolhido.'''
 from random import choice
 n1 = str(input('\033[31mDigite o primeiro nome:\033[m '))
 n2 = str(input('\033[32mDigite o segundo nome:\033[m '))

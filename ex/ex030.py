@@ -1,4 +1,4 @@
-### Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.
+'''Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.'''
 from time import sleep
 n = int(input('\033[31mDigite um número:\033[m '))
 print('\033[32mPROCESSANDO...\033[m')

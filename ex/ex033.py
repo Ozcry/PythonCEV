@@ -1,4 +1,4 @@
-### Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
+'''Faça um programa que leia três números e mostre qual é o maior e qual é o menor.'''
 n1 = float(input('\033[30mDigite o primeiro número:\033[m '))
 n2 = float(input('\033[31mDigite o segundo número:\033[m '))
 n3 = float(input('\033[32mDigite o terceiro número:\033[m '))

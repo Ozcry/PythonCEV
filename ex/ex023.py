@@ -1,9 +1,9 @@
-### Crie um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
-### Ex: Digite um número: 1834
-### unidade: 4
-### dezena: 3
-### centena: 8
-### milhar: 1
+'''Crie um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
+Ex: Digite um número: 1834
+> unidade: 4
+> dezena: 3
+> centena: 8
+> milhar: 1'''
 n1 = int(input('\033[36mDigite um número entre 0  e 9999:\033[m '))
 u = n1 // 1 % 10
 d = n1 // 10 % 10

@@ -1,7 +1,5 @@
-'''
-Desenvolva um programa que leia seis números inteiros e mostre a soma apenas daqueles que forem pares. Se o valor
-digitado for ímpar, desconsidere-o.
-'''
+'''Desenvolva um programa que leia seis números inteiros e mostre a soma apenas daqueles que forem pares. Se o valor
+digitado for ímpar, desconsidere-o.'''
 soma = 0
 for c in range(1, 7):
     n = int(input('\033[34mDigite o\033[m {}{}{}\033[34m número:\033[m '.format('\033[32m', c, '\033[m')))

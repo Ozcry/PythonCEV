@@ -1,6 +1,6 @@
-### Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento.
-### Para salários superiores a R$1.250,00, calcule um aumento de 10%.
-### Para as inferiores ou iguais, o aumento é de 15%.
+'''Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento.
+>Para salários superiores a R$1.250,00, calcule um aumento de 10%.
+>Para salários inferiores ou iguais, o aumento é de 15%.'''
 s = float(input('\033[31mDigite o valor do seu salário:\033[m '))
 cores = {'limpa': '\033[m', 'ciano': '\033[36m', 'azul': '\033[34m'}
 if s <= 1250:

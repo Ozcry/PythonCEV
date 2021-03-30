@@ -1,4 +1,4 @@
-### Crie um programa que leia dois números e mostre a soma entre eles.
+'''Crie um programa que leia dois números e mostre a soma entre eles.'''
 n1 = float(input('Digite um valor: '))
 n2 = float(input('Digite outro: '))
 s = n1 + n2
