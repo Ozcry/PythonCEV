@@ -17,7 +17,7 @@ b = (5, 8, 1, 2)
 c = b +a
 pessoa = ('Jean', 23, 'M', 65.5)
 
-'''print(lanche[1])'''
+print(lanche[1])
 
 '''for c in lanche:
     print(f'Eu vou comer {c}')'''
