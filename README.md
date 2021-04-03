@@ -24,6 +24,8 @@ aula014.py -> Estrutura de repetição while
 
 aula015.py -> Interrompendo repetições while
 
+aula016.py -> Tuplas
+
 Exercícios
 ---
 
@@ -237,3 +239,15 @@ B) Quantos produtos custum mais de R$1000
 C) Qual é o nome do produto mais barato.
 
 ex071.py -> Crie um programa que simule o funcionamento de um caixa eletrônico. No início, pergunte ao usuário qual será o valor a ser sacado (número inteiro) e o programa vai informar quantas cédulas de cada valor serão entregues. OBS:. Considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
+
+ex072.py -> Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso,de zero até vinte. Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.
+
+ex073.py -> Crie uma tupla preenchida com os 20 primeiros colocados da tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre: A) Apenas os 5 primeiros colocados B) Os últimos 4 colocados da tabela C) Uma lista com os times em ordem alfabética D) Em que posição na tabela está o time da Chapecoense.
+
+ex074.py -> Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla. Depois disso, mostre a listagem de números gerados e também indique o menor e o maior valor que estão na tupla.
+
+ex075.py -> Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre: A) Quantas vezes apareceu o valor 9 B) Em que posição foi digitado o primeiro valor 3 C) Quais foram os números pares.
+
+ex076.py -> Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. No final, mostre uma listagem de preços, organizando os dados em forma tabular.
+
+ex077.py -> Crie um programa que tenha uma tupla com várias palavras (não usar acentos). Depois disso, você deve mostrar, para cada palavra, quais são as suas vogais.
