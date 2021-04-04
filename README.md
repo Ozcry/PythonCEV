@@ -26,6 +26,8 @@ aula015.py -> Interrompendo repetições while
 
 aula016.py -> Tuplas
 
+aula017.py -> Listas (Parte 1)
+
 Exercícios
 ---
 
@@ -79,10 +81,10 @@ programa que leia o nome dos quatro alunos e mostra a ordem sorteada.
 ex021.py -> Crie um programa em python que abra e reproduza o áudio de um arquivo MP3.
 
 ex022.py -> Crie um programa que leia o nome completo de uma pessoa e mostre:
- A) O nome com todas as letras maiúsculas.
- B) O nome com todas minúsculas.
- C) Quantas letras ao todo (sem considerar espaços).
- D) Quantas letras tem o primeiro nome.
+A) O nome com todas as letras maiúsculas
+B) O nome com todas minúsculas
+C) Quantas letras ao todo (sem considerar espaços)
+D) Quantas letras tem o primeiro nome
 
 ex023.py -> Crie um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados. 
 Ex: Digite um número: 1834
@@ -96,12 +98,11 @@ ex024.py -> Crie um programa que leia o nome de uma cidade e diga se ela começa
 ex025.py -> Crie um programa que leia o nome de uma pessoa e diga se ela tem "silva" no nome.
 
 ex026.py -> Crie um programa que leia um frase pelo teclado e mostre:
-A) Quantas vezes aparece a letra "A".
-B) Em que posição ela aparece a primeira vez.
-C) Em que posição ela aparece a última vez.
+A) Quantas vezes aparece a letra "A"
+B) Em que posição ela aparece a primeira vez
+C) Em que posição ela aparece a última vez
 
-ex027.py -> Crie um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
-ex: Ana Maria de Souza
+ex027.py -> Crie um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente. ex: Ana Maria de Souza
 1)Primeiro = Ana
 2)Último = Souza
 
@@ -135,17 +136,15 @@ C) Não existe valor maior, os dois são iguais
 
 ex039.py -> Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com sua idade:
 A) Se ele ainda vai se alistar ao serviço militar
-B) Se é a hora de se alistar.
-C) Se já passou do tempo do alistamento. Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
+B) Se é a hora de se alistar
+C) Se já passou do tempo do alistamento. Seu programa também deverá mostrar o tempo que falta ou que passou do prazo
 
-ex040.py -> Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com
-a média atingida:
+ex040.py -> Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com a média atingida:
 A) Média abaixo de 5.0: REPROVADO
 B) Média entre 5.0 e 6.9: RECUPERAÇÃO
 C) Média 7.0 ou superior: APROVADO
 
-ex041.py -> A Confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua
-categoria, de acordo com a idade:
+ex041.py -> A Confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com a idade:
 A) Até 9 anos: Mirim
 B) Até 14 anos: Infantil
 C) Até 18 anos: Junior
@@ -157,20 +156,18 @@ A) Equilátero: Todos os lados iguais
 B) Isósceles: Dois lados iguais
 C) Escaleno: Todos os lados diferentes
 
-ex043.py -> Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu IMC e mostre seu status, de acordo com
-a tabela abaixo:
+ex043.py -> Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu IMC e mostre seu status, de acordo com a tabela abaixo:
 A) Abaixo de 18.5: Abaixo do peso
 B) Entre 18.5 e 25: Peso ideal
 C) 25 até 30: Sobrepeso
 D) 30 até 40: Obesidade
 E) Acima de 40: Obesidade mórbida
 
-ex044.py -> Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição
-de pagamento:
+ex044.py -> Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:
 A) Á vista dinheiro/cheque: 10% de desconto
 B) Á vista no cartão: 5% de desconto
 C) Em até 2x no cartão: preço normal
-D) 3x ou mais no cartão: 20% de juros.
+D) 3x ou mais no cartão: 20% de juros
 
 ex045.py -> Crie um programa que faça o computador jogar Jokenpô com você.
 
@@ -195,9 +192,9 @@ ex054.py -> Crie um programa que leia o ano de nascimento de sete pessoas. No fi
 ex055.py -> Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lidos.
 
 ex056.py -> Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa mostre:
-A) A média de idade do grupo.
-B) Qual é o nome do homem mais velho.
-C) Quantas mulheres têm menos de 20 anos.
+A) A média de idade do grupo
+B) Qual é o nome do homem mais velho
+C) Quantas mulheres têm menos de 20 anos
 
 ex057.py -> Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter um valor correto.
 
@@ -208,7 +205,8 @@ A) [1] somar
 B) [2] multiplicar
 C) [3] maior
 D) [4] novos números
-E) [5] sair do programa. Seu programa deverá realizar a operação solicitada em cada caso.
+E) [5] sair do programa
+Seu programa deverá realizar a operação solicitada em cada caso.
 
 ex060.py -> Faça um programa que leia um número qualquer e mostre o seu fatorial. ex:. 5! = 5 x 4 x 3 x 2 x 1 = 120  (Fazer uma vez com WHILE outra com FOR)
 
@@ -231,23 +229,45 @@ ex068.py -> Faça um programa que jogue par ou ímpar com o computador. O jogo s
 ex069.py -> Crie um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deverá perguntar se o usuário quer ou não continuar. No final, mostre:
 A) Quantas pessoas tem mais de 18 anos
 B) Quantos homens foram cadastrados
-C) Quantas mulheres tem menos de 20 anos.
+C) Quantas mulheres tem menos de 20 anos
 
 ex070.py -> Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai continuar. No final, mostre:
 A) Qual é o total gasto na compra
 B) Quantos produtos custum mais de R$1000
-C) Qual é o nome do produto mais barato.
+C) Qual é o nome do produto mais barato
 
 ex071.py -> Crie um programa que simule o funcionamento de um caixa eletrônico. No início, pergunte ao usuário qual será o valor a ser sacado (número inteiro) e o programa vai informar quantas cédulas de cada valor serão entregues. OBS:. Considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
 
 ex072.py -> Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso,de zero até vinte. Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.
 
-ex073.py -> Crie uma tupla preenchida com os 20 primeiros colocados da tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre: A) Apenas os 5 primeiros colocados B) Os últimos 4 colocados da tabela C) Uma lista com os times em ordem alfabética D) Em que posição na tabela está o time da Chapecoense.
+ex073.py -> Crie uma tupla preenchida com os 20 primeiros colocados da tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre: 
+A) Apenas os 5 primeiros colocados 
+B) Os últimos 4 colocados da tabela 
+C) Uma lista com os times em ordem alfabética 
+D) Em que posição na tabela está o time da Chapecoense
 
 ex074.py -> Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla. Depois disso, mostre a listagem de números gerados e também indique o menor e o maior valor que estão na tupla.
 
-ex075.py -> Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre: A) Quantas vezes apareceu o valor 9 B) Em que posição foi digitado o primeiro valor 3 C) Quais foram os números pares.
+ex075.py -> Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre: 
+A) Quantas vezes apareceu o valor 9 
+B) Em que posição foi digitado o primeiro valor 3 
+C) Quais foram os números pares
 
 ex076.py -> Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. No final, mostre uma listagem de preços, organizando os dados em forma tabular.
 
 ex077.py -> Crie um programa que tenha uma tupla com várias palavras (não usar acentos). Depois disso, você deve mostrar, para cada palavra, quais são as suas vogais.
+
+ex078.py -> Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No final, mostre qual foi o maior e o menor valor digitado e as suas respectivas posições na lista.
+
+ex079.py -> Crie um programa onde o usuário possa digitar vários valores numéricos e cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será adicionado. No final, serão exibidos todos os valores únicos digitados, em ordem crescente.
+
+ex080.py -> Crie um programa onde o usuário posso digitar cinco valores numéricos e cadastre-os em uma lista, já na posição correta de inserção (sem usar o sort()). No final, mostre a lista ordenada na tela.
+
+ex081.py -> Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, mostre: 
+A) Quantos números foram digitados 
+B) A lista de valores, ordenada de forma decrescente 
+C) Se o valor 5 foi digitado e está ou não na lista
+
+ex082.py -> Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, crie duas listas extras que vão conter apenas os valores pares e os valores impares digitados, respectivamente. Ao final, mostre o conteúdo das três listas geradas.
+
+ex083.py -> Crie um programa onde o usuário digite uma expressão qualquer que use parênteses. Seu aplicativo deverá analisar se a expressão passada está com os parênteses abertos e fechados na ordem correta.
