@@ -7,14 +7,14 @@ listaimpar = []
 contpar = contimpar = 0
 print('\033[1;33m-=\033[m' * 20)
 while True:
-    n1 = int(input('Digite um valor: '))
+    n1 = int(input('\033[34mDigite um valor: \033[m'))
     if n1 in lista:
-        print('Valor duplicado, Não vou adicionar...')
+        print('\033[31mValor duplicado, Não vou adicionar...\033[m')
     else:
         lista.append(n1)
     sair = ' '
     while sair not in 'SN':
-        continuar = str(input('Continuar [S/N]: ')).strip().upper()[0]
+        continuar = str(input('\033[37mContinuar [S/N]:\033[m ')).strip().upper()[0]
         sair = continuar
     if sair == 'N':
         break
@@ -27,14 +27,14 @@ for v in lista:
         listaimpar.append(v)
         contimpar += 1
 print('\033[1;33m-=\033[m' * 20)
-print(f'A lista completa é {lista}')
+print(f'\033[36mA lista completa é {lista}\033[m')
 if contpar != 0:
-    print(f'A lista de pares é {listapar}')
+    print(f'\033[35mA lista de pares é {listapar}\033[m')
 else:
-    print('Não ouve números PARES')
+    print('\033[31mNão ouve números PARES\033[m')
 if contimpar != 0:
-    print(f'A lista ímpar é {listaimpar}')
+    print(f'\033[34mA lista ímpar é {listaimpar}\033[m')
 else:
-    print('Não ouve números ÍMPARES')
+    print('\033[31mNão ouve números ÍMPARES\033[m')
 print('\033[1;33m-=\033[m' * 20)
-print('FIM')
+print('\033[1;32mFIM\033[m')

@@ -3,23 +3,23 @@ correta de inserção (sem usar o sort()). No final, mostre a lista ordenada na 
 print('\033[1;33m-=\033[m' * 20)
 lista = []
 for c in range(0, 5):
-    n1 = int(input('Digite um valor: '))
+    n1 = int(input('\033[34mDigite um valor:\033[m '))
     if c == 0 or n1 > lista[-1]:
         lista.append(n1)
-        print('Adicionado ao final da lista...')
+        print('\033[31mAdicionado ao final da lista...\033[m')
         print('\033[1;33m-=\033[m' * 20)
     else:
         pos = 0
         while pos < len(lista):
             if n1 <= lista[pos]:
                 lista.insert(pos, n1)
-                print(f'Adicionando na posição {pos} da lista...')
+                print(f'\033[35mAdicionando na posição {pos} da lista...\033[m')
                 print('\033[1;33m-=\033[m' * 20)
                 break
             pos += 1
-print(f'Os valores digitados em ordem foram {lista}')
+print(f'\033[36mOs valores digitados em ordem foram {lista}\033[m')
 print('\033[1;33m-=\033[m' * 20)
-print('FIM')
+print('\033[1;32mFIM\033[m')
 
 ### Outro metodo
 '''
