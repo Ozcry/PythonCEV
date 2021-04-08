@@ -30,6 +30,8 @@ aula017.py -> Listas (Parte 1)
 
 aula018.py -> Listas (Parte 2)
 
+aula019.py -> Dicionários
+
 Exercícios
 ---
 
@@ -284,3 +286,19 @@ C) O maior valor da segunda linha
 ex088.py -> Faça um programa que ajude um jogador da MEGA SENA a criar palpites. O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo, cadastrando tudo em uma lista composta.
 
 ex089.py -> Crie um programa que leia nome e duas notas de vários alunos e guarde tudo em uma lista composta. No final, mostre um boletim contendo a média de cada um e permita que o usuário possa mostrar as notas de cada aluno individualmente.
+
+ex090.py -> Faça um programa que leia nome e média de um aluno, guardando também a situação em um dicionário. No final, mostre o conteúdo da estrutura na tela.
+
+ex091.py -> Crie um programa onde 4 jogadores joguem um dado e tenham resultados aleatórios. Guarde esses resultados em um dicionário. No final, coloque esse dicionário em ordem, sabendo que o vencedor tirou o maior número no dado.
+
+ex092.py -> Crie um programa que leia nome, ano de nascimento e carteira de trabalho e cadastre-os (com idade) em um dicionário se por acaso a CTPS for diferente de zero, o dicionário recebera também o ano de contratação e o salário. calcule e acrescente, além da idade, com quantos anos a pessoa vai se aposentar.
+
+ex093.py -> Crie um programa que gerencie o aproveitamento de um jogador de futebol. O programa vai ler o nome do jogador e quantas partidas ele jogou. Depois vai ler a quantidade de gols feitos em cada partida. No final, tudo isso será guardado em um dicionário, incluindo o total de gols feitos durante o compeonato.
+
+ex094.py -> Crie um programa que leia nome, sexo e idade de várias pessoas, guardando os dados de cada pessoa em um dicionário e todos os dicionários em uma lista. No final, mostre:  
+A) Quantas pessoas foram cadastradas  
+B) A média de idade do grupo  
+C) Uma lista com todas as mulheres  
+D) uma lista com todas as pessoas com idade acima da média
+
+ex095.py -> Aprimore o DESAFIO 093 para que ele funcione com vários jogadores, incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador.
