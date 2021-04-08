@@ -2,12 +2,13 @@
 A) Quantas pessoas foram cadastradas
 B) Uma listagem com as pessoas mais pesadas
 C) Uma listagem com as pessoas mais leves'''
+print('\033[1;33m-=\033[m' * 20)
 temp = []
 princ = []
 mai = men = 0
 while True:
-    temp.append(str(input('Nome: ')))
-    temp.append(float(input('Peso: ')))
+    temp.append(str(input('\033[31mNome:\033[m ')))
+    temp.append(float(input('\033[32mPeso: \033[m')))
     if len(princ) == 0:
         mai = men = temp[1]
     else:
@@ -17,21 +18,24 @@ while True:
             men = temp[1]
     princ.append(temp[:])
     temp.clear()
-    resp = str(input('Quer continuar? [S/N] '))
+    resp = str(input('\033[34mQuer continuar? [S/N]\033[m '))
     if resp in 'Nn':
         break
-print('-=' * 30)
-print(f'Ao todo, você cadastrou {len(princ)} pessoas. ')
-print(f'O maior peso foi de {mai}Kg. Peso de ', end='')
+    print('\033[1;33m-=\033[m' * 20)
+print('\033[1;33m-=\033[m' * 20)
+print(f'\033[35mAo todo, você cadastrou {len(princ)} pessoas.\033[m ')
+print(f'\033[36mO maior peso foi de {mai}Kg. Peso de \033[m', end='')
 for p in princ:
     if p[1] == mai:
-        print(f'[{p[0]}] ', end='')
+        print(f'\033[36m[{p[0]}]\033[m ', end='')
 print()
-print(f'O menor peso foi de {men}Kg. Peso de ', end='')
+print(f'\033[37mO menor peso foi de {men}Kg. Peso de \033[m', end='')
 for p in princ:
     if p[1] == men:
-        print(f'[{p[0]}] ', end='')
+        print(f'\033[37m[{p[0]}]\033[m ', end='')
 print()
+print('\033[1;33m-=\033[m' * 20)
+print('\033[1;32mFIM\033[m')
 
 ### Outro metodo
 '''

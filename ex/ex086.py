@@ -1,14 +1,17 @@
 '''Crie um programa que crie uma matriz de dimensão 3x3 e preencha com valores lidos pelo teclado.
 No final, mostre a matriz na tela, com a formatação correta.'''
+print('\033[1;33m-=\033[m' * 20)
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 for l in range(0, 3):
     for c in range (0, 3):
-        matriz[l][c] = int(input(f'Digite um valor para [{l}, {c}]: '))
-print('-=' * 30)
+        matriz[l][c] = int(input(f'\033[36mDigite um valor para [{l}, {c}]: \033[m'))
+print('\033[1;33m-=\033[m' * 20)
 for l in range(0, 3):
     for c in range(0, 3):
-        print(f'[{matriz[l][c]:^5}]', end='')
+        print(f'\033[35m[{matriz[l][c]:^5}]\033[m', end='')
     print()
+print('\033[1;33m-=\033[m' * 20)
+print('\033[1;32mFIM\033[m')
 
 ### Outro metodo
 '''

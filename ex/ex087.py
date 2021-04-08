@@ -2,15 +2,16 @@
 A) A soma de todos os valores pares digitados
 B) A soma dos valores da terceira coluna
 C) O maior valor da segunda linha'''
+print('\033[1;33m-=\033[m' * 20)
 matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 spar = mai = scol = 0
 for l in range(0, 3):
     for c in range (0, 3):
-        matriz[l][c] = int(input(f'Digite um valor para [{l}, {c}]: '))
-print('-=' * 30)
+        matriz[l][c] = int(input(f'\033[31mDigite um valor para [{l}, {c}]: \033[m'))
+print('\033[1;33m-=\033[m' * 20)
 for l in range(0, 3):
     for c in range(0, 3):
-        print(f'[{matriz[l][c]:^5}]', end='')
+        print(f'\033[32m[{matriz[l][c]:^5}]\033[m', end='')
         if matriz[l][c] % 2 == 0:
             spar += matriz[l][c]
     print()
@@ -21,10 +22,12 @@ for l in range(0, 3):
         mai = matriz[1][l]
     elif matriz[1][l] > mai:
         mai = matriz[1][l]
-print('-=' * 30)
-print(f'A soma dos valores pares é {spar}')
-print(f'A soma dos valores da terceira coluna é {scol}')
-print(f'O maior valor da segunda linha é {mai}')
+print('\033[1;33m-=\033[m' * 20)
+print(f'\033[34mA soma dos valores pares é {spar}\033[m')
+print(f'\033[35mA soma dos valores da terceira coluna é {scol}\033[m')
+print(f'\033[36mO maior valor da segunda linha é {mai}\033[m')
+print('\033[1;33m-=\033[m' * 20)
+print('\033[1;32mFIM\033[m')
 
 ###Outro metodo
 '''
