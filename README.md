@@ -32,6 +32,8 @@ aula018.py -> Listas (Parte 2)
 
 aula019.py -> Dicionários
 
+aula020.py -> Funções (Parte 1)
+
 Exercícios
 ---
 
@@ -302,3 +304,16 @@ C) Uma lista com todas as mulheres
 D) uma lista com todas as pessoas com idade acima da média
 
 ex095.py -> Aprimore o DESAFIO 093 para que ele funcione com vários jogadores, incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador.
+
+ex096.py -> Faça um programa que tenha uma função chamada área(), que receba as dimensões de um terreno retangular (largura e comprimento) e mostre a área do terreno.
+
+ex097.py -> Faça um programa que tenha uma função chamada escreva(), que receba um texto qualquer como parâmetro e mostre uma mensagem com tamanho adaptável.  
+
+ex098.py -> Faça um programa que tenha uma função chamada contador(), que receba três parâmetros: início, fim e passo e realize a contagem. Seu programa tem que realizar três contagens através da função criada:  
+A) De 1 até 10, de 1 em 1  
+B) De 10 até 0, de 2 em 2  
+C) Uma contagem personalizada
+
+ex099.py -> Faça um programa que tenha uma função chamada maior(), que receba vários parâmetros com valores inteiros. Seu programa tem que analisar todos os valores e dizer qual deles é o maior.
+
+ex100.py -> Faça um programa que tenha uma lista chamada números e duas funções chamadas sorteia() e somaPar(). A primeira função vai sortear 5 números e vai colocá-los dentro da lista e a segunda função vai mostrar a soma entre todos os valores PARES sorteados pela função anterior.
