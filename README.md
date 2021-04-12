@@ -34,6 +34,8 @@ aula019.py -> Dicionários
 
 aula020.py -> Funções (Parte 1)
 
+aula021.py -> Funções (Parte 2)
+
 Exercícios
 ---
 
@@ -317,3 +319,21 @@ C) Uma contagem personalizada
 ex099.py -> Faça um programa que tenha uma função chamada maior(), que receba vários parâmetros com valores inteiros. Seu programa tem que analisar todos os valores e dizer qual deles é o maior.
 
 ex100.py -> Faça um programa que tenha uma lista chamada números e duas funções chamadas sorteia() e somaPar(). A primeira função vai sortear 5 números e vai colocá-los dentro da lista e a segunda função vai mostrar a soma entre todos os valores PARES sorteados pela função anterior.
+
+ex101.py -> Crie um programa que tenha uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma pessoa, retornando um valor literal indicando se uma pessoa tem voto NEGADO, OPCIONAL ou OBRIGATÓRIO nas eleições.
+
+ex102.py -> Crie um programa que tenha uma função fatorial() que receba dois parâmetros: o primeiro que indique o número a calcular e o outro chamado show, que será um valor lógico(opcional) indicando se será mostrado ou não na tela o processo de cálculo do fatorial.
+
+ex103.py -> Faça um programa que tenha uma função chamada ficha(), que receba dois parâmetros opcionais: o nome de um jogador e quantos gols ele marcou. O programa deverá ser capaz de mostrar a ficha do jogador, mesmo que algum dado não tenha sido informado corretamente.
+
+ex104.py -> Crie um programa que tenha a função leiaInt(), que vai funcionar de forma semelhante á função input() do Python, só que fazendo a validação para aceitar apenas um valor numérico. Ex:. n = leiaInt('Digite um n')
+
+ex105.py -> Faça um programa que tenha uma função notas() que pode receber várias notas de alunos e vai retornar um dicionário com as seguintes informações:  
+A) Quantidade de notas  
+B) A maior nota  
+C) A menor nota  
+D) A média da turma  
+E) A situação (opcional)  
+Adicione também as Docstrings da função.
+
+ex106.py -> Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai aparecer. Quando o usuário digitar a palavra 'FIM', o programa se encerrará. OBS: use cores.
