@@ -36,6 +36,8 @@ aula020.py -> Funções (Parte 1)
 
 aula021.py -> Funções (Parte 2)
 
+aula022.py -> Módulos e Pacotes
+
 Exercícios
 ---
 
@@ -337,3 +339,15 @@ E) A situação (opcional)
 Adicione também as Docstrings da função.
 
 ex106.py -> Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai aparecer. Quando o usuário digitar a palavra 'FIM', o programa se encerrará. OBS: use cores.
+
+ex107.py -> Crie um módulo chamado moeda.py que tenha as funções incorporadas aumentar(), diminuir(), dobro() e metade(). Faça também um programa que inporte esse módulo e use algumas dessas funções.
+
+ex108.py -> Adapte o código do DESAFIO 107, criando uma função adicional chamada moeda() que consiga mostrar os valores como um valor monetário formatodo.
+
+ex109.py -> Modifique as funções que foram criadas no DESAFIO 107 para que elas aceitem um parâmetro a mais, informando se o valor retornado por elas vai ser ou não formatado pela função moeda(), desenvolvidada no DESAFIO 108.
+
+ex110.py -> Adicione ao módulo moeda.py criado nos desafios anteriores, uma função chamada resumo(), que mostre na tela algumas informações geradas pelas funções que já temos no módulo criado até aqui.
+
+ex111.py -> Crie um pacote chamado utilidadesCeV que tenha dois módulos internos chamados moeda e dado. Transfira todos as funções utilizadas nos DESAFIOS 107, 108 e 109 para o primerio pacote e mantenha tudo funcionado.
+
+ex112.py -> Dentro do pacote utilidadesCeV que criamos no DESAFIO 111, temos um módulo chamado dado. Crie uma função chamda leiaDinheiro() que seja capaz de funcionar como a função input(), mas com uma validação de dados para aceitar apenas valores que sejam monetários.
