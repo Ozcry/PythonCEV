@@ -3,7 +3,6 @@ Aprendendo Python Canal Curso em Vídeo (Mundo 1 ao 3)
 
 Aulas
 ---
-
 aula006.py -> Primitives Types and Data Output
 
 aula007.py -> Operadores Aritméticos
@@ -37,6 +36,9 @@ aula020.py -> Funções (Parte 1)
 aula021.py -> Funções (Parte 2)
 
 aula022.py -> Módulos e Pacotes
+
+aula023.py -> Tratamento de Erros e Exceções
+
 
 Exercícios
 ---
@@ -351,3 +353,9 @@ ex110.py -> Adicione ao módulo moeda.py criado nos desafios anteriores, uma fun
 ex111.py -> Crie um pacote chamado utilidadesCeV que tenha dois módulos internos chamados moeda e dado. Transfira todos as funções utilizadas nos DESAFIOS 107, 108 e 109 para o primerio pacote e mantenha tudo funcionado.
 
 ex112.py -> Dentro do pacote utilidadesCeV que criamos no DESAFIO 111, temos um módulo chamado dado. Crie uma função chamda leiaDinheiro() que seja capaz de funcionar como a função input(), mas com uma validação de dados para aceitar apenas valores que sejam monetários.
+
+ex113.py -> Reescreva a função leiaInt() que fizemos no DESAFIO 104, incluindo agora a possibilidade da digitação de um número de tipo inválido. Aproveite e crie também uma função leiaFloot() com a mesma funcionalidade.
+
+ex114.py -> Crie um código em Python que teste se o site pudim está acessível pelo computador usado.
+
+ex115.py -> Crie um pequeno sistema modularizado que permita cadastrar pessoas pelo seu nome e idade em um arquivo de texto simples. O sistema só vai ter 2 opções: cadastrar uma nova pessoa e listar todas as pessoas cadastradas.
