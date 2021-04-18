@@ -65,3 +65,43 @@ def moeda(num):
     aux2 = str(aux)
     aux3 = aux2.replace('.', ',')
     return aux3
+
+
+def leiainteiro(num):
+
+    def teste(n1):
+        aux2 = n1
+        try:
+            int(aux2)
+        except ValueError:
+            return False
+        return aux2
+
+    aux = input(num).strip()
+
+    while not teste(aux):
+        print(f'\033[31mERRO: "{aux}" é um valor inválido! Por favor, digite um número inteiro válido.\033[m')
+        aux = input(num).strip()
+    return aux
+
+
+def leiafloat(num):
+
+    def teste(n1):
+        aux2 = n1.replace(',', '.')
+        try:
+            float(aux2)
+        except ValueError:
+            return False
+        return True
+
+    aux = input(num).strip()
+
+    while not teste(aux):
+        print(f'\033[31mERRO: "{aux}" é um valor inválido! Por favor, digite um número real válido.\033[m')
+        aux = input(num).strip()
+    if len(aux) == 1:
+        aux2 = int(aux)
+        return f'{aux2:.1f}'.replace(',', '.')
+    else:
+        return aux.replace(',', '.')
