@@ -1,4 +1,4 @@
-# PythonExercicio
+# PythonCEV
 Aprendendo Python Canal Curso em Vídeo (Mundo 1 ao 3)
 
 Aulas
