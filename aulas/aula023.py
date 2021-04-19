@@ -35,3 +35,9 @@ else:
 finally:
     print('Volte sempre! Muito Obrigado!')
 '''
+
+# Correção ex113
+
+'''
+continue -> joga diretamente para o while novamente
+'''
