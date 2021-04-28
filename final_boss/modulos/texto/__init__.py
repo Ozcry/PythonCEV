@@ -39,3 +39,15 @@ def leianome(texto=' ', cor=0, sty=0):
             aux = input(f'\033[{sty};{cor}m{texto}').strip().title()
             aux2 = aux.replace(' ', '')
     return aux
+
+
+def leiatudo(texto=' ', cor=0, sty=0):
+    """
+    Função que funciona como um input para ler tudo.
+    :param texto: Texto a ser exibido para o usuário
+    :param cor: Cor da linha (30 a 37)
+    :param sty: Style da linha (0, 1, 4, 7)
+    :return: Retorna uma string digitada pelo usuário
+    """
+    aux = input(f'\033[{sty};{cor}m{texto}')
+    return aux
