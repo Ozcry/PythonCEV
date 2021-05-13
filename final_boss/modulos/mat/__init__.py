@@ -39,3 +39,26 @@ def somanum(*num):
         return int(soma)
     else:
         return float(soma)
+
+
+def leiaint(texto=' ', cor=0, sty=0):
+    aux = input(f'\033[{sty};{cor}m{texto}\033[m').strip()
+    cont = 0
+    aux2 = aux.replace('-', '')
+    for e in aux:
+        if e == '-':
+            cont += 1
+    if cont <= 1 and aux2.isnumeric():
+        return aux
+    else:
+        return '\033[1;31mError: Digite um número inteiro valido!\033[m'
+
+
+def ansu(texto):
+    aux = leiaint(texto)
+    try:
+        aux2 = int(aux)
+    except:
+        print('\033[1;31mError: Digite um número inteiro valido!\033[m')
+    else:
+        print(f'O número digitado foi {aux2}, seu sucessor é {aux2 + 1} e seu antecessor é {aux2 - 1}')
