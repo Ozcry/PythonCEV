@@ -42,23 +42,35 @@ def somanum(*num):
 
 
 def leiaint(texto=' ', cor=0, sty=0):
+    """
+    Função que funciona como um input para ler um número inteiro.
+    :param texto: Texto a ser exibido para o usuário
+    :param cor: Cor do texto a ser exibido ao usuário (30 a 37)
+    :param sty: Style do texto a ser exibido ao usuário (0, 1, 4, 7)
+    :return: Retorna um número
+    """
     aux = input(f'\033[{sty};{cor}m{texto}\033[m').strip()
-    cont = 0
-    aux2 = aux.replace('-', '')
-    for e in aux:
-        if e == '-':
-            cont += 1
-    if cont <= 1 and aux2.isnumeric():
-        return aux
-    else:
-        return '\033[1;31mError: Digite um número inteiro valido!\033[m'
+    sair = 0
+    while sair == 0:
+        try:
+            int(aux)
+        except:
+            print('\033[31mERRO: por favor, digite um número inteiro válido.\033[m')
+            aux = input(f'\033[{sty};{cor}m{texto}\033[m').strip()
+        else:
+            sair += 1
+    return int(aux)
 
 
-def ansu(texto):
-    aux = leiaint(texto)
-    try:
-        aux2 = int(aux)
-    except:
-        print('\033[1;31mError: Digite um número inteiro valido!\033[m')
-    else:
-        print(f'O número digitado foi {aux2}, seu sucessor é {aux2 + 1} e seu antecessor é {aux2 - 1}')
+def ansu(texto=' ', cori=0, styi=0, cor=0, sty=0):
+    """
+    Função que faz um print na tela do antecessor é sucessor de um número.
+    :param texto: Texto a ser exibido para o usuário
+    :param cori: Cor do texto a ser exibido ao usuário (30 a 37)
+    :param styi: Style do texto a ser exibido ao usuário (0, 1, 4, 7)
+    :param cor: Cor da resposta a ser exibido ao usuário (30 a 37)
+    :param sty: Style da resposta a ser exibido ao usuário (0, 1, 4, 7)
+    :return: Nada
+    """
+    aux = leiaint(texto, cori, styi)
+    print(f'\033[{sty};{cor}mO número digitado foi {aux}, seu sucessor é {aux + 1} e seu antecessor é {aux - 1}\033[m')
