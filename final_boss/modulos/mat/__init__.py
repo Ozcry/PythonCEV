@@ -76,13 +76,13 @@ def ansu(texto=' ', cori=0, styi=0, cor=0, sty=0):
     print(f'\033[{sty};{cor}mO número digitado foi {aux}, seu sucessor é {aux + 1} e seu antecessor é {aux - 1}\033[m')
 
 
-def dobro(num, cor=0, sty=0):
-    print(f'\033[{sty};{cor}mO dobro do seu número é {num * 2}\033[m')
+def dobro(num):
+    return num * 2
 
 
-def triplo(num, cor=0, sty=0):
-    print(f'\033[{sty};{cor}mO triplo do seu número é {num * 2}\033[m')
+def triplo(num):
+    return num * 3
 
 
-def raizqua(num, cor=0, sty=0):
-    print(f'\033[{sty};{cor}mA raiz quadrada do seu número é {num ** (1/2):.2f}\033[m')
+def raizqua(num):
+    return num ** (1/2)
