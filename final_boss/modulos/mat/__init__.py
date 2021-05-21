@@ -77,12 +77,43 @@ def ansu(texto=' ', cori=0, styi=0, cor=0, sty=0):
 
 
 def dobro(num):
+    """
+    Função para calcular o dobro de um número.
+    :param num: Número para obter o dobro
+    :return: Dobro de um número
+    """
     return num * 2
 
 
 def triplo(num):
+    """
+    Função para calcular o triplo de um número.
+    :param num: Número para obter o triplo
+    :return: Triplo de um número
+    """
     return num * 3
 
 
 def raizqua(num):
+    """
+    Função para calcular a raiz quadrada de um número.
+    :param num: Número para obter a raiz quadrada
+    :return: Raiz quadrada
+    """
     return num ** (1/2)
+
+
+def media(*num):
+    '''
+    Função para calcular a média de números.
+    :param num: Números para calcular a média
+    :return: Média dos números
+    '''
+    soma = 0
+    for e in num:
+        soma += e
+    med = soma / len(num)
+    if int(med) == float(med):
+        return int(med)
+    else:
+        return float(med)
