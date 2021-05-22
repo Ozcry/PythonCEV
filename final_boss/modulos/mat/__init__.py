@@ -35,10 +35,7 @@ def somanum(*num):
     soma = 0
     for e in num:
         soma += e
-    if int(soma) == float(soma):
-        return int(soma)
-    else:
-        return float(soma)
+    return igual_int_float(soma)
 
 
 def leiaint(texto=' ', cor=0, sty=0):
@@ -62,18 +59,22 @@ def leiaint(texto=' ', cor=0, sty=0):
     return int(aux)
 
 
-def ansu(texto=' ', cori=0, styi=0, cor=0, sty=0):
+def suce(num):
     """
-    Função que faz um print na tela do antecessor é sucessor de um número.
-    :param texto: Texto a ser exibido para o usuário
-    :param cori: Cor do texto a ser exibido ao usuário (30 a 37)
-    :param styi: Style do texto a ser exibido ao usuário (0, 1, 4, 7)
-    :param cor: Cor da resposta a ser exibido ao usuário (30 a 37)
-    :param sty: Style da resposta a ser exibido ao usuário (0, 1, 4, 7)
-    :return: Nada
+    Função para calcular sucessor de um número.
+    :param num: Número para se obter o sucessor
+    :return: Sucessor
     """
-    aux = leiaint(texto, cori, styi)
-    print(f'\033[{sty};{cor}mO número digitado foi {aux}, seu sucessor é {aux + 1} e seu antecessor é {aux - 1}\033[m')
+    return num + 1
+
+
+def ante(num):
+    """
+    Função para calcular antecessor de um número.
+    :param num: Número para se obter o antecessor
+    :return: Antecessor
+    """
+    return num - 1
 
 
 def dobro(num):
@@ -113,7 +114,16 @@ def media(*num):
     for e in num:
         soma += e
     med = soma / len(num)
-    if int(med) == float(med):
-        return int(med)
+    return igual_int_float(med)
+
+
+def igual_int_float(num):
+    """
+    Função para comparar se (número int) e igual a (número float).
+    :param num: Número para se comparar
+    :return: Número (int) ou (float)
+    """
+    if int(num) == float(num):
+        return int(num)
     else:
-        return float(med)
+        return float(num)
