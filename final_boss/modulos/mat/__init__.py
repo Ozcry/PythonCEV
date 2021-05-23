@@ -127,3 +127,21 @@ def igual_int_float(num):
         return int(num)
     else:
         return float(num)
+
+
+def metros_centimetros(valor):
+    """
+    Função para converter um valor em metros para centímetros.
+    :param valor: Valor a ser convertido
+    :return: Valor em centímetros
+    """
+    return valor / 0.01
+
+
+def metros_milimetros(valor):
+    """
+    Função para converter um valor em metros para milímetros.
+    :param valor: Valor a ser convertido
+    :return: Valor em milímetros
+    """
+    return valor / 0.0010000
