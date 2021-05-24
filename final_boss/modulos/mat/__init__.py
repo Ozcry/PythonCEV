@@ -145,3 +145,17 @@ def metros_milimetros(valor):
     :return: Valor em milímetros
     """
     return valor / 0.0010000
+
+
+def tabuada(num, ate, cor=0, sty=0):
+    """
+    Função para mostrar a tabuada de um número.
+    :param num: Número a ser multiplicado
+    :param ate: Multiplicar ate atingir esse valor
+    :param cor: Cor de exibição da tabuada (30 a 37)
+    :param sty: Style de exibição da tabuada (0, 1, 4, 7)
+    :return: Nada
+    """
+    from final_boss.modulos import texto
+    for e in range(1, ate + 1):
+        texto.escreva(f'{num} * {e} = {num * e}', cor, sty)
