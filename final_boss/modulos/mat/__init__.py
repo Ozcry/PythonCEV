@@ -159,3 +159,11 @@ def tabuada(num, ate, cor=0, sty=0):
     from final_boss.modulos import texto
     for e in range(1, ate + 1):
         texto.escreva(f'{num} * {e} = {num * e}', cor, sty)
+
+
+def dinheiro(num):
+    return f'R${float(num):.2f}'
+
+
+def real_dolar(real, dolar):
+    return real / dolar
