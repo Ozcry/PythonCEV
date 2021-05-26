@@ -166,4 +166,10 @@ def dinheiro(num):
 
 
 def real_dolar(real, dolar):
+    """
+    Função para converter real em dólar.
+    :param real: Valor em real
+    :param dolar: Cotação atual do dólar
+    :return: Retorna o valor em real convertido para dólar
+    """
     return real / dolar
