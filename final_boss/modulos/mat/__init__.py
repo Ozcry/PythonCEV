@@ -162,7 +162,15 @@ def tabuada(num, ate, cor=0, sty=0):
 
 
 def dinheiro(num):
-    return f'R${float(num):.2f}'
+    """
+    Função para retornar um valor em formato monetário.
+    :param num: Número a ser convertido
+    :return: Uma str no formato monetário
+    """
+    aux = f'{float(num):.2f}'
+    aux2 = str(aux)
+    aux3 = aux2.replace('.', ',')
+    return f'R$ {aux3}'
 
 
 def real_dolar(real, dolar):
