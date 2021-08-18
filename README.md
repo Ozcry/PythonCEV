@@ -359,5 +359,3 @@ ex113.py -> Reescreva a função leiaInt() que fizemos no DESAFIO 104, incluindo
 ex114.py -> Crie um código em Python que teste se o site pudim está acessível pelo computador usado.
 
 ex115.py -> Crie um pequeno sistema modularizado que permita cadastrar pessoas pelo seu nome e idade em um arquivo de texto simples. O sistema só vai ter 2 opções: cadastrar uma nova pessoa e listar todas as pessoas cadastradas.
-
-FINALBOSS -> Refaça todos os exercícios, dessa vez utilizando todos os conhecimentos adquiridos. Obs.: Tente criar e usar o máximo de módulos possível.
